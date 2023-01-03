@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 方法1：
+    用lable标签将内容包裹起来，然后在表单标签上添加id属性，将lable中的for属性设置对应的id -->
+    性别：
+    <input type="radio" name="gender" id="man"><label for="man">男</label> 
+    <input type="radio" name="gender" id="woman"> <label for="woman">女</label>   
+    <!-- 方法2：
+    直接用lable标签将内容包裹起来，需要把label的for属性删除 -->
+    <br>
+    性别：
+    <label>
+        <input type="radio" name="gender">男
+        <label><input type="radio" name="gender">女</label>
+    </label>
+</body>
+</html>
