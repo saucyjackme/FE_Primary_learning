@@ -50,6 +50,6 @@ css写在标签的style属性中
 4.一个id选择器只能选择一个标签
 
 ## 8.8 通配符选择器
- * {
+ \* {
     background-color:blue;
   }
